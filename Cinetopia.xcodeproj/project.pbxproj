@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D06444CD2C3DDC590030FD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06444CC2C3DDC590030FD45 /* AppDelegate.swift */; };
 		D06444CF2C3DDC590030FD45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06444CE2C3DDC590030FD45 /* SceneDelegate.swift */; };
-		D06444D12C3DDC590030FD45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06444D02C3DDC590030FD45 /* ViewController.swift */; };
-		D06444D42C3DDC590030FD45 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D06444D32C3DDC590030FD45 /* Base */; };
+		D06444D12C3DDC590030FD45 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06444D02C3DDC590030FD45 /* HomeViewController.swift */; };
 		D06444D62C3DDC5B0030FD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06444D52C3DDC5B0030FD45 /* Assets.xcassets */; };
 		D06444D92C3DDC5B0030FD45 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D06444D82C3DDC5B0030FD45 /* Base */; };
+		D06444E12C3DF6250030FD45 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06444E02C3DF6250030FD45 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D06444C92C3DDC590030FD45 /* Cinetopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinetopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06444CC2C3DDC590030FD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06444CE2C3DDC590030FD45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D06444D02C3DDC590030FD45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D06444D32C3DDC590030FD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06444D02C3DDC590030FD45 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D06444D52C3DDC5B0030FD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06444D82C3DDC5B0030FD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D06444DA2C3DDC5B0030FD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06444E02C3DF6250030FD45 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				D06444CC2C3DDC590030FD45 /* AppDelegate.swift */,
 				D06444CE2C3DDC590030FD45 /* SceneDelegate.swift */,
-				D06444D02C3DDC590030FD45 /* ViewController.swift */,
-				D06444D22C3DDC590030FD45 /* Main.storyboard */,
+				D06444D02C3DDC590030FD45 /* HomeViewController.swift */,
 				D06444D52C3DDC5B0030FD45 /* Assets.xcassets */,
 				D06444D72C3DDC5B0030FD45 /* LaunchScreen.storyboard */,
 				D06444DA2C3DDC5B0030FD45 /* Info.plist */,
+				D06444E02C3DF6250030FD45 /* MoviesViewController.swift */,
 			);
 			path = Cinetopia;
 			sourceTree = "<group>";
@@ -127,7 +127,6 @@
 			files = (
 				D06444D62C3DDC5B0030FD45 /* Assets.xcassets in Resources */,
 				D06444D92C3DDC5B0030FD45 /* Base in Resources */,
-				D06444D42C3DDC590030FD45 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06444D12C3DDC590030FD45 /* ViewController.swift in Sources */,
+				D06444D12C3DDC590030FD45 /* HomeViewController.swift in Sources */,
 				D06444CD2C3DDC590030FD45 /* AppDelegate.swift in Sources */,
 				D06444CF2C3DDC590030FD45 /* SceneDelegate.swift in Sources */,
+				D06444E12C3DF6250030FD45 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D06444D22C3DDC590030FD45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D06444D32C3DDC590030FD45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D06444D72C3DDC5B0030FD45 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +288,6 @@
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -327,7 +318,6 @@
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
