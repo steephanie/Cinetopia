@@ -1,4 +1,6 @@
-Aplicativo desenvolvido para estudo usando UIKit com view code 🚀
+Aplicativo de estudos de Swift 🚀
+- View code
+- UIKit
 
 Seguindo as aulas no [Alura](https://cursos.alura.com.br/formacao-aplicativos-ios-view-code) ministrado pela [Giovanna Moeller](https://github.com/giovannamoeller)
 
