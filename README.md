@@ -1,3 +1,8 @@
+<h4 align="center">
+    <img src="Cinetopia/Assets.xcassets/Logo.imageset/Logo.svg" width="200" alt="Logo" />
+    <img src="Cinetopia/Assets.xcassets/Couple.imageset/Couple.png" width="200" alt="Couple" />
+</h4>
+
 Aplicativo de estudos de Swift 🚀
 - View code
 - UIKit
